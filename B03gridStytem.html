@@ -19,10 +19,47 @@
         <li>text-XXX : 텍스트 색깔을 설정한다.</li>
     </p>
     <div class="row">
+        <!-- 
+            col뒤에 아무 숫자가 없으므로 1:1:1 비율로 같은 크기여야 하는데,
+            p-3, p-4, p-5 로 패딩을 각각 다르게 설정해서
+            웹에서 확인해보면 크기의 차이가 있다.
+         -->
         <div class="col p-3 bg-primary text-white">.col .p-3 bg-primary</div>
         <div class="col p-4 bg-dark text-white">.col .p-4 bg-dark</div>
         <div class="col p-5 bg-info text-white">.col .p-5 bg-info</div>
     </div>
+    <br><hr><br>
+
+    <h2>반응형 컬럼</h2>
+    <p>
+        화면사이즈에 따라 레이아웃이 반응형으로 변화한다.
+        또한 디바이스의 크기에 따라 다르게 반응한다.
+    </p>
+    <h3>sm (Small Device)</h3>
+    <div class="row">
+        <div class="col-sm-3 bg-primary">.col-sm-3</div>
+        <div class="col-sm-3 bg-info">.col-sm-3</div>
+        <div class="col-sm-3 bg-primary">.col-sm-3</div>
+        <div class="col-sm-3 bg-info">.col-sm-3</div>
+    </div>
+    <h3>lg (Large Device)</h3>
+    <div class="row">
+        <div class="col-lg-3 bg-primary">.col-sm-3</div>
+        <div class="col-lg-3 bg-info">.col-sm-3</div>
+        <div class="col-lg-3 bg-primary">.col-sm-3</div>
+        <div class="col-lg-3 bg-info">.col-sm-3</div>
+    </div>
+    <h3>xl (Extra Large Device)</h3>
+    <div class="row">
+        <div class="col-xl-4 bg-warning">.col-xl-4</div>
+        <div class="col-xl-8 bg-danger">.col-xl-8</div>
+    </div>
+
+    <h3></h3>
+    <div class="row">
+        <div class="col-sm-4">.col-sm-4</div>
+        <div class="col-sm-8">.col-sm-8</div>
+      </div>
 </div>
 </body>
 </html>
